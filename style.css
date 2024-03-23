@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 6px 12px;
+  box-sizing: content-box;
+}
+html {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  width: 750px;
+  background-color: #fdaf7b;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 12px;
+  flex-basis: 750px;
+  flex-grow: 1px;
+}
+
+/* LVHA_content*/
+
+a:link,
+a:visited {
+  color: #401f71;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+h1 {
+  color: #401f71;
+}
+
+.act-btn {
+  color: #401f71;
+  background-color: #be7b72;
+}
+.act-btn:hover {
+  color: #be7b72;
+  background-color: #401f71;
+}
+
+header {
+  width: 750px;
+  height: 450px;
+  padding: 6px 12px;
+  background-color: #fdaf7b;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 750px;
+  flex-grow: 1px;
+}
+.para {
+  margin-top: 15px;
+}
+.content-para {
+  width: 300px;
+}
+.btn {
+  background-color: #401f71;
+  padding: 2px 10px;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.pic {
+  width: 300px;
+  height: 400px;
+  margin-right: 50px;
+}
